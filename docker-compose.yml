@@ -1,8 +1,8 @@
 version: '3.7' 
 
 services: 
-  movie_app: 
-    container_name: movie_app 
+  next_app: 
+    container_name: next_app 
     build: 
       context: . 
       dockerfile: Dockerfile 
